@@ -5,7 +5,7 @@ let total = 0;
 let maxPrice = 0;
 for (let i = 0; i < max_cars; i++) {
     let hours = +prompt("Скільки год на стоянці?");
-    if (hours === 0) {
+    if (hours === 0){
         break;
     }
     if (hours < 0 || hours > 12) {
