@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Налаштування профілю</title>
+    <link rel="stylesheet" type="text/css" href="home_work.css">
+</head>
+<body>
+<main class="course-card" id="card">
+    <p class="tag">Особистий кабінет</p>
+    <h1>Налаштування профілю</h1>
+    <p id="welcome">Вітаємо, гостю!</p>
+
+    <label for="studentsName">Ваше ім'я</label>
+    <input id="studentsName" type="text" placeholder="Введіть ім'я">
+
+    <label for="format">Кольорова тема</label>
+    <select id="format">
+        <option value="light">Світла тема</option>
+        <option value="dark">Темна тема</option>
+    </select>
+
+    <button id="enrollBtn">Підтвердити</button>
+    <p id="status">Зміни ще не збережено</p>
+
+    <button id="detailBtn" class="secondary">Показати додаткову інформацію</button>
+    <p class="hidden" id="details">Тут містяться додаткові налаштування безпеки та конфіденційності профілю.</p>
+</main>
+<script src="home_work.js"></script>
+</body>
+</html>

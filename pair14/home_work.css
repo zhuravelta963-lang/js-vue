@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: "Kristen ITC", serif;
+    background: #837e7e;
+    color: #550d0d;
+}
+.course-card{
+    width: min(450px, 90vh);
+    padding: 30px;
+    background: #fdfdfd;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgb(122, 10, 10);
+}
+.tag{
+    color: #670505;
+    font-weight: bold;
+}
+label{
+    display: block;
+    margin: 15px 0;
+}
+input, select{
+    border: 1px solid #fefefe;
+    padding: 5px 10px;
+    width: 100%;
+}
+button{
+    margin: 15px 0;
+    border: none;
+    background: orange;
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 10px;
+    width: 100%;
+}
+.secondary{
+    background: #fdfdfd;
+    color: #243041;
+}
+.hidden{
+    display: none;
+}
+.success{
+    color: #147d43;
+    font-weight: bold;
+}
+.dark{
+    background: #243041;
+    color: white;
+}
+.dark .secondary{
+    background: #526483;
+    color: white;
+}
